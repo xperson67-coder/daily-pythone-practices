@@ -1,19 +1,20 @@
-# Daily Python Practices
+### Text Analyzer
+**Description:**  
+A simple Python script that reads a text file, splits it into sentences, and reports the character count and byte size of each sentence.  
 
-This repository is dedicated to my daily Python learning, practice, and improvement.  
-Each file or script here represents something I have learned or tested as part of my journey to become an AI developer.
+**How it works:**
+1. Reads a UTF-8 encoded `.txt` file.
+2. Splits the content by `.`, `!`, or `?`.
+3. Writes a formatted report to a new `output.txt` file.
 
-## Purpose
+**What I learned:**
+- File handling in Python (`open`, `with` context manager)
+- String manipulation and sentence splitting
+- UTF-8 encoding and character counting
+- Writing formatted output files
 
-- To record my daily Python practice and experiments.  
-- To improve my coding skills step by step.  
-- To serve as a portfolio for future AI projects and professional development.
-
-## My Learning Goals
-
-- Strengthen Python fundamentals (loops, functions, OOP)  
-- Learn data handling with NumPy and Pandas  
-- Explore AI and machine learning with scikit-learn, PyTorch, and TensorFlow  
-- Build practical projects and contribute to open-source
-
-
+**Usage:**
+- Place your text file in the specified path.
+- Run the Python script:
+  ```bash
+  python text_analyzer.py
